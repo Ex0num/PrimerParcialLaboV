@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Parcial 1</string>
+
+    <string name="text_label_nombre">Ingrese su usuario</string>
+    <string name="text_placeholder_input_nombre">Juan</string>
+
+    <string name="text_label_password">Ingrese su contraseña</string>
+    <string name="text_placeholder_input_password">12345</string>
+
+    <string name="text_label_confirm_password">Confirme su contraseña</string>
+    <string name="input_confirm_password">12345</string>
+
+    <string name="text_placeholder_input_tipo">Tipo:</string>
+    <string name="text_input_administrador">Administrador</string>
+    <string name="text_input_usuario">Usuario</string>
+
+
+    <string name="text_button_guardar">Guardar</string>
+</resources>

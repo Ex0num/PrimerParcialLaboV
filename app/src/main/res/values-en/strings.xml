@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exam 1</string>
+
+    <string name="text_label_nombre">Enter you username</string>
+    <string name="text_placeholder_input_nombre">John</string>
+
+    <string name="text_label_password">Enter your password</string>
+    <string name="text_placeholder_input_password">12345 omg</string>
+
+    <string name="text_label_confirm_password">Confirm your password</string>
+    <string name="input_confirm_password">12345 omg</string>
+
+    <string name="text_placeholder_input_tipo">Type:</string>
+    <string name="text_input_administrador">Administrator</string>
+    <string name="text_input_usuario">User</string>
+
+
+    <string name="text_button_guardar">Save</string>
+</resources>

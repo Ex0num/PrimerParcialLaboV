@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormularioPersona"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="left">
+
+    <TextView
+        android:id="@+id/label_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/text_label_nombre"
+        android:textSize="22dp"
+        android:layout_marginTop="15dp">
+    </TextView>
+    <EditText
+        android:id="@+id/input_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="@string/text_placeholder_input_nombre"
+        android:textAlignment="textStart">
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_label_password"
+        android:textSize="22dp"
+        android:layout_marginTop="15dp">
+    </TextView>
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textAlignment="textStart"
+        android:inputType="textPassword">
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_label_confirm_password"
+        android:textSize="22dp"
+        android:layout_marginTop="15dp">
+    </TextView>
+    <EditText
+        android:id="@+id/input_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textAlignment="textStart"
+        android:inputType="textPassword">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_placeholder_input_tipo"
+            android:textSize="22dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="35dp">
+        </TextView>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/input_tipo_administrador"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_input_administrador"
+                android:textSize="19dp"
+                android:layout_marginRight="10dp">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/input_tipo_usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_input_usuario"
+                android:textSize="19dp"
+                android:layout_marginRight="10dp">
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="@string/text_button_guardar"
+            android:drawableRight="@android:drawable/ic_menu_save"
+            android:layout_marginTop="10dp">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

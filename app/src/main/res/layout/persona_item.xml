@@ -1,0 +1,38 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginHorizontal="20dp"
+android:orientation="horizontal"
+android:gravity="left">
+<LinearLayout
+    android:layout_width="@android:dimen/thumbnail_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/tvNombre"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/tvTipo"/>
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/ic_menu_view"
+    android:backgroundTint="@android:color/holo_red_dark"
+    android:id="@+id/imagen_representativaPersona"/>
+</LinearLayout>

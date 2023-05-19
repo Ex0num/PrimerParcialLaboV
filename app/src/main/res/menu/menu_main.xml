@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.simulacro_p1_v2.MainActivity">
+    <item
+        android:id="@+id/dar_de_alta"
+        android:orderInCategory="100"
+        android:title="Dar de alta"
+        app:showAsAction="never" />
+</menu>
