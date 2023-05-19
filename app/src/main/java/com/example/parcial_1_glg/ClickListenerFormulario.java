@@ -54,9 +54,9 @@ public class ClickListenerFormulario implements View.OnClickListener
         String passwordIngresada = this.input_password.getText().toString();
         String confirmacionPasswordIngresada = this.input_confirm_password.getText().toString();
 
-        if (passwordIngresada.equals(confirmacionPasswordIngresada) == false)
+        if (passwordIngresada.equals(confirmacionPasswordIngresada) == false || passwordIngresada.length() < 4)
         {
-            System.out.println("Las passwords deben matchear");
+            System.out.println("Las passwords deben matchear y deben tener mas de 3 caracteres");
         }
         else
         {

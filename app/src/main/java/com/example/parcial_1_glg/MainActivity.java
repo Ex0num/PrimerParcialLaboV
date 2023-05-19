@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Volviendo a la lista principal y verificando cambios...", Toast.LENGTH_SHORT).show();
         Log.d("LISTA ACTUAL: ",this.personas.toString());
 
+        //Debo usar datasetchanged xq puedo dar de alta ademas de modificar.
         this.adapterPersona.notifyDataSetChanged();
         super.onRestart();
     }
